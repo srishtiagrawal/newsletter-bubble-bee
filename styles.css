@@ -1,0 +1,45 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #fffced;
+}
+.btn-primary-signup {
+  background: #B4C6A6;
+  color: #fffced;
+  border: none;
+
+}
+.btn-primary-signup:hover {
+  background: #66806A;
+}
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.newsletter-heading-primary {
+  font-size: 24px;
+  color: #66806A;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.top, .bottom, .middle {
+  margin-bottom: 9px;
+  
+}
+
